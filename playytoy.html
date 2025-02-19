@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playtoy</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    
+        <title>Playtoy Store </title>
+        <style>
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+            }
+            
+            /* Header */
+            .header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: white;
+                padding: 10px 20px;
+            }
+    
+            .logo {
+                display: flex;
+                align-items: center;
+            }
+    
+            .logo img {
+                height: 50px;
+            }
+    
+            .title {
+                font-size: 18px;
+                font-weight: bold;
+                color: rgb(0, 81, 255);
+                margin-left: 10px;
+            }
+    
+            /* Navbar */
+            .navbar {
+                display: flex;
+                background-color: rgb(0, 81, 255);
+            }
+    
+            .navbar a {
+                flex: 1;
+                text-align: center;
+                padding: 15px;
+                color: white;
+                font-weight: bold;
+                text-decoration: none;
+                border-right: 1px solid white;
+            }
+    
+            .navbar a:last-child {
+                border-right: none;
+            }
+    
+            /* Login/Register */
+            .login {
+                color: rgb(15, 14, 15);
+                font-size: 14px;
+                text-decoration: none;
+                margin-right: 20px;
+            }
+    
+            .toggle {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+    
+            .toggle div {
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color:gray;
+            }
+    
+            .toggle div:last-child {
+                background-color: lightgray;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <!-- Header -->
+        <div class="header">
+           <div style="display: flex; align-items: center;">
+            <img src="https://www.creativefabrica.com/wp-content/uploads/2023/01/27/Creative-F-Logo-and-Icon-Graphics-59107740-1.jpg" alt="logo f" style="height: 60px;">
+            <strong style="border-bottom: 3px solid black; margin-right: 10px;">PLAYTOY</strong>
+           </div>
+            
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Navbar -->
+        <div class="navbar">
+            <a href="#">ONLINE</a>
+            <a href="#">OFFLINE</a>
+            <a href="#">PREMIUM</a>
+            <a href="#">GRATIS </a>
+            <a href="#">TERBARU</a>
+            <a href="#">MOBILE</a>
+            <a href="#">FPS</a>
+        </div>
+    
+    </body>
+    </html>
+    
+    <style>
+
+        *{
+            font-family: "Inter", system-ui;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+        
+        .scroll-box{
+            display: flex;
+            width: max-content;
+            gap: 10px;
+        }
+
+        .scroll{
+            width: 100%;
+            overflow-x: scroll;
+            scroll-snap-type: x mandatory;
+        }
+
+        .item{
+            scroll-snap-align: start;
+            width: 180px;
+            aspect-ratio: 11/16;
+        }
+
+        .item img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 10px;
+        }
+
+        .scroll::-webkit-scrollbar{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          
+          
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 pe-5" type="search" placeholder="search?" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg></button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleInterval" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="https://imgsrv2.voi.id/sPYWWC3-ydOFH64MD3hOfTLy7QPCR0Zc0Jufm-J6VLA/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8yODQ3OS8yMDIxMDEyMzE1MjktbWFpbi5jcm9wcGVkXzE2MTEzOTk1NzIuanBn.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://th.bing.com/th/id/OIP.wIlUDR5OO3hGi8ewIAlLnwHaEK?rs=1&pid=ImgDetMain" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="https://www.techworm.net/wp-content/uploads/2018/09/Download-PUBG-PC.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <section id="tentang-elci">
+            <strong style="border-bottom: 3px solid black; margin-right: 10px;">REKOMENDASI GAME TERBARU</strong>
+        <hr style="border: 2px solid rgb(0, 0, 116); border-radius: 5px; width: 50px;">
+        <div class="scroll mb-5">
+            <div class="scroll-box">
+                <div class="item">
+                    <img src ="https://wallpapers.com/images/hd/roblox-iphone-uw0ttwkeiqi54any.jpg" alt="">
+                    <a href="https://www.roblox.com/" class="ticket-btn">roblox </a>
+                    
+                </div>
+                <div class="item">
+                    <img src="https://howlongtobeat.com/games/6390_Naruto_Shippuden_Ultimate_Ninja_Storm_3.jpg" alt="">
+                    <a href="https://www.bing.com/search?q=naruto%20ultimate%20ninja&qs=n&form=QBRE&sp=-1&lq=0&pq=naruto%20ultimate%20ninja&sc=15-21&sk=&cvid=CBBEAA140D3B49A0925B5AAAF578BACB&ghsh=0&ghacc=0&ghpl=" class="ticket-btn">naruto ultimate</a>
+                </div>
+                <div class="item">
+                    <img src="https://th.bing.com/th/id/R.6426763c9a57df5e4f1de95477da2d46?rik=41zxAQ9XZJP2ZA&riu=http%3a%2f%2f2.bp.blogspot.com%2f-e_xlqGiahGA%2fUpiULpKpPlI%2fAAAAAAAACuU%2fj8EHUDo8CTA%2fs1600%2ffifa%2bnew.jpg&ehk=zU0udf6LefMmFkvpN%2bMv1E7IKNVuYZlni0xkSZGkQuw%3d&risl=&pid=ImgRaw&r=0" alt="">
+                    <a href="https://www.bing.com/search?q=game%20fifa%2013&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=ga&sc=12-2&sk=&cvid=77830864594D42F9BBE95003C19A4CA0&ghsh=0&ghacc=0&ghpl=" class="ticket-btn">fifa 13</a>
+                </div>
+                <div class="item">
+                    <img src="https://m.gjcdn.net/realm-cover/300/125359-vp4qrsa3-v4.webp" alt="">
+                    <a href="https://www.stumbleguys.com/" class="ticket-btn">stumbleguys</a>
+                </div>
+                <div class="item">
+                    <img src="https://th.bing.com/th/id/OIP.5jAaxCguEargv_Y4tRg4DQHaNO?rs=1&pid=ImgDetMain" alt="">
+                    <a href="https://blockblast.game/" class="ticket-btn">block blast</a>
+                </div>
+                <div class="item">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMzllN2IwYzEtODZhNC00ODRkLWE2ZmUtODdiOTU2YjZlZTk0XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpgS" alt="">
+                    <a href="https://poki.com/id/g/subway-surfers?msockid=2d022729e4cb69a51b92325de51b68f8" class="ticket-btn">subway surf</a>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <strong style="border-bottom: 3px solid black; margin-right: 10px;">REKOMENDASI GAME ONLINE</strong>
+        <hr style="border: 2px solid rgb(0, 0, 116); border-radius: 5px; width: 50px;">
+        <div class="scroll mb-5">
+            <div class="scroll-box">
+                <div class="item">
+                    <img src="https://seagm-media.seagmcdn.com/material/827.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="https://th.bing.com/th/id/OIP.QKIYneALv0ujCtZcm4UErAHaJ8?rs=1&pid=ImgDetMain" alt="">
+                </div>
+                <div class="item">
+                    <img src="https://assets.dearplayers.com/products/pubg_2657dd2d.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="https://d4d29scnl092c.cloudfront.net/Honor_Of_Kings_3a2501f231.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="https://i.gadgets360cdn.com/products/large/call-of-duty-mobile-poster-4010-1000x1770-1648102945.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img src="https://th.bing.com/th/id/OIP.OaSMsVRvOVFXYXIekFXqsQHaNK?w=1080&h=1920&rs=1&pid=ImgDetMain" alt="">
+                </div>
+            
+              
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <strong style="border-bottom: 3px solid black; margin-right: 10px;">REKOMENDASI GAME OFFLINE</strong>
+        <hr style="border: 2px solid rgb(0, 0, 116); border-radius: 5px; width: 50px;">
+        <div class="scroll mb-5">
+            <div class="scroll-box">
+                <div class="item">
+                    <img src="https://th.bing.com/th/id/OIP.MNULRiKWaPFMZcimxWnIwQHaJ8?rs=1&pid=ImgDetMain" alt="">
+                </div>
+                <div class="item">
+                    <img src="https://th.bing.com/th/id/OIP.Em1He6vhLBuAbUkvNHNgOgHaJ8?rs=1&pid=ImgDetMain" alt="">
+                </div>
+                <div class="item">
+                    <img src="https://th.bing.com/th/id/R.a50ecc24b2a81736f724b2872c945086?rik=7ZrRc%2bEHe2%2b3Kg&riu=http%3a%2f%2fstatic.tvmaze.com%2fuploads%2fimages%2foriginal_untouched%2f74%2f185595.jpg&ehk=2UuzrTDzfRk7t2I5s65nx3zjQybLQeE36yp2gMyfmtk%3d&risl=&pid=ImgRaw&r=0" alt="">
+                </div>
+                <div class="item">
+                    <img src="https://th.bing.com/th/id/OIP.a564VtWRYpQKBfGHRjBy5wHaHa?rs=1&pid=ImgDetMain" alt="">
+                </div>
+                <div class="item">
+                    <img src="https://s1.mzstatic.com/us/r30/Purple6/v4/9c/30/97/9c3097c0-5514-81d7-a27e-e1cb96a4aaf9/mzl.bcvljsir.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="https://www.giantbomb.com/a/uploads/scale_medium/45/458944/3172300-steamworkshop_collection_382706424_collection_branding.png" alt="">
+                </div>
+                
+            
+        </div>
+    </div>
+
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>
+      
+          <h5>LINK STEAM
+            <a href="https://store.steampowered.com/join/" class="ticket-btn">LINK STEAM </a></h5>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            
+          </ul>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
